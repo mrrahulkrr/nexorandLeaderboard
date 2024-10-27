@@ -22,7 +22,8 @@ Before you begin, ensure you have installed:
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/mrrahulkrr/nexorandLeaderboard.git
+
 cd nexorand-leaderboard
 ```
 
@@ -46,7 +47,6 @@ This will start the application in development mode. Open [http://localhost:5173
 - `npm run dev` - Starts the development server
 - `npm run build` - Builds the app for production
 - `npm run preview` - Locally preview production build
-- `npm run lint` - Run ESLint to check code quality
 
 ## Project Structure
 
