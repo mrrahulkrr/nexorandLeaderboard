@@ -56,8 +56,11 @@ nexorand-leaderboard/
 │   ├── components/
 │   ├── pages/
 │   ├── lib/
-│   ├── styles/
+│   ├── context/
+│   ├── services/
+│   ├── App.css
 │   ├── App.jsx
+|   ├── index.css
 │   └── main.jsx
 ├── public/
 ├── index.html
@@ -86,7 +89,7 @@ nexorand-leaderboard/
 Create a `.env` file in the root directory:
 
 ```env
-VITE_API_URL=your_api_url_here
+VITE_API_URL="http://localhost:7000/api"
 ```
 
 ### TailwindCSS
@@ -114,7 +117,3 @@ npm run preview
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
